@@ -152,3 +152,15 @@ footer{
 .left-side, .right-side{
     margin: 40px;
 }
+
+/* animation */
+.product img{
+    transition: transform 0.5s ease-in-out;
+}
+.product img:hover{
+    transform: translateY(-10px) scale(1.1);
+}
+.btn:hover i{
+    transform: translateX(15px);
+    transition: transform 0.5s ease-in-out;
+}
