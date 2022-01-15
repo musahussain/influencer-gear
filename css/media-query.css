@@ -23,6 +23,12 @@
     .product-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .content{
+        flex-direction: column;
+    }
+    .see-more{
+        position: static;
+    }
 }
 /* for devices screen size of 689px to 992px */
 @media only screen and (min-width: 689px) and (max-width:
@@ -46,5 +52,8 @@
     }
     .product-container{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .see-more{
+        position: static;
     }
 }
